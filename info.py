@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
+API_ID = int(environ.get('API_ID', '441555182734'))
+API_HASH = environ.get('eaa3c0c1ef1b92df739e441555182734')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7860097158:AAGsx5piLloi2KtRf96vi6aJ0U1SZl1VkaU')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7251306600').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Jsrj2010") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002341396887'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Death_robot')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbots.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bossisback09876543211234567890:bossisback09876543211234567890@bossisback09876543211234567890.hetez.mongodb.net/?retryWrites=true&w=majority&appName=bossisback09876543211234567890")
+DATABASE_NAME = environ.get('DATABASE_NAME', "bossisback09876543211234567890")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -44,7 +44,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Death_robot")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
