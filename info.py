@@ -13,21 +13,21 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '441555182734'))
-API_HASH = environ.get('eaa3c0c1ef1b92df739e441555182734')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7860097158:AAEhIWksSJibLz5qTU41LSwTMbEJffkgKIg')
+API_ID = int(environ.get('API_ID', '22083216'))
+API_HASH = environ.get('a4c3ce9493061323cbb5741370aa11f1')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8121761455:AAH6_89wGGHrXvTh8jAS1rYKl7WOMNnPDOM')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7251306600').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Jsrj2010") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002341396887'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Death_robot')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1489423238').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Morekoushal1444") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002288168950'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MKryfs')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002309053713').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bossisback09876543211234567890:bossisback09876543211234567890@bossisback09876543211234567890.hetez.mongodb.net/?retryWrites=true&w=majority&appName=bossisback09876543211234567890")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bossisback09876543211234567890")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Chimu0:Chimu0@chimu0.ewdjp.mongodb.net/?retryWrites=true&w=majority&appName=Chimu0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Chimu0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mk')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
